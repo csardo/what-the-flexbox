@@ -32,9 +32,10 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .container {
   display:flex;
   border:10px solid goldenrod;
-  flex-direction: column;
+  min-height: 100vh;
+  flex-wrap: wrap;
 }
 
 .box {
-  width:33.3333333%;
+  width: 33.3333%;
 }
