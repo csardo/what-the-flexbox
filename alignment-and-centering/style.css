@@ -32,24 +32,7 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .container {
   display:flex;
   border:10px solid mistyrose;
-  justify-content:space-around;
+  flex-wrap: wrap;
+  align-content:center;
   height: 100vh;
-  align-items: baseline;
-}
-
-.box {
-  width:33.333%;
-}
-
-.box2 {
-  padding-bottom: 200px;
-}
-
-.box6 {
-  padding-bottom: 0;
-}
-
-.box9 {
-  padding-bottom: 50px;
-  align-self:stretch;
 }

@@ -12,3 +12,7 @@ Options:
  3. `flex-start` (default)
  4. `flex-end` (pack all to end)
  5. `baseline` (make sure the bottom of the text is all aligned properly when they are different sizes)
+
+ For `align-content` you need to have some sort of wrap or it doesn't take effect. We are only concerned with the cross axis here.
+
+<b>align-self</b> can override the rest of `align-items`, helpful if you want to just stretch one item, or put just one item at the start or end.
