@@ -1,0 +1,1 @@
+`flex-basis`: defines the default size of an element before the remaining space is distributed
