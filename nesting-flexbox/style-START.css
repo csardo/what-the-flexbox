@@ -34,10 +34,38 @@ a:hover {
   background:rgba(0,0,0,0.4);
 }
 
-
+/* our flex container */
 .slider-nav ul {
   list-style: none;
   margin: 0;
   padding: 0; 
+  display: flex;
 }
 
+/* our first flex item */
+.slider-nav li {
+  display: flex; /* as a flex container */
+  flex: 2; /* as a flex item */
+}
+
+.slider-nav .arrow {
+  flex: 1;
+}
+
+.slider-nav .arrow a {
+  font-size: 40px;
+}
+
+.slider-nav a {
+  align-items: center;
+  flex-basis: 100%;
+  display: flex; /* as a flex container */
+  padding:20px 5px;
+}
+
+.slider-nav span {
+  /* spans are default display inline */
+  display: block;
+  width: 100%;
+  text-align: center;
+}
