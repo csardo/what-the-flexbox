@@ -6,9 +6,9 @@ Answer: Use nested flex box.
 
     /* our first flex item */
     .slider-nav li {
-    flex: 2; /* as a flex item */
-    text-align: center;
-    display: flex; /* as a flex container */
+        flex: 2; /* as a flex item */
+        text-align: center;
+        display: flex; /* as a flex container */
     }
 
 So the above element is both a flex items and containers. Very helpful if you want items to vertically stretch as well as be centered.
