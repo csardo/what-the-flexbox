@@ -42,7 +42,7 @@ a {
 }
 
 .item {
-  /* since we explitcitly gave it a width with a margin of 10px we are over our 100%
+  /* since we explitcitly gave it a  with a margin of 10px we are over our 100%
      budget, so flex-basis: 33%; will only result in 2 columns. */
   flex-basis: calc(33% - 20px);
   flex-grow: 0;
