@@ -38,6 +38,8 @@ a.button {
   border-bottom-width: 70px;
   border-radius:10px;
   box-shadow:0 0 50px  rgba(0,0,0,0.3);
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -74,6 +76,7 @@ a.button {
 
 .icon-bar {
   border-top:1px solid #E6E6E6;
+  display: flex;
 }
 
 .icon-bar i {
@@ -88,17 +91,24 @@ a.button {
   background:#F0CB45;
   color:rgba(0,0,0,0.5);
   padding:1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app-header a {
+  display: flex;
+  align-items: center;
+  flex: 0 0 content;
+}
+
+.app-wrap > * {
+  flex: 1 1 auto; /* if you did auto for content, it can grow to fit as long as it wants, that's why you need the overflow.*/
+}
+
+.app-wrap .content {
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 
 
-/*
-  Everything So far is Cosmetic styling 
-
-  Flexbox + Important CSS Starts Here
-
-*/
-
-
-/*
-  Overall Layout
-*/
