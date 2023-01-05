@@ -14,3 +14,4 @@ So `flex: 1` is shorthand to set both `flex-shrink` and `flex-grow` to 1.
 `flex-shrink` is how should we shrink the elements down when there is less than the ideal space for it. Default is 1.
 
 `flex-basis` is the ideal/initial amount of space.
+ - `flex-basis: 100%` means the item stretches to 100% of available space in the parent container, rather than just fitting the content
